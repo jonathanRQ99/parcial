@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Fundamentos de HTML</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+        <h1>Elementos basicos de HTML </h1>
+        <p>
+            En esta pagina se muestra ejemplos de los principales elementos
+            para estructurar el contenido de una pagina web
+        </p>
+        <h2>encabezados</h2>
+        <p>
+            Existen 6 niveles y se debe respetar el orden en el que se presentan.
+        </p>
+        <h2>listas</h2>
+        <h3>listas desordenadas</h3>
+        <ul>
+            <li>c++</li>
+            <li>c#</li>
+            <li>java</li>
+        </ul>
+        <h3>listas ordenadas</h3>
+        <ol>
+            <li>windows</li>
+            <li>OSX</li>
+            <li>Linux</li>
+        </ol>
+        
+        <h2>Tablas</h2>
+        
+        <table>
+            <tr>
+                <th>Grupo</th>
+                <th>Nombre</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                    <th>1K</th>
+                    <th>Jonathan Ramirez</th>
+                    <th>jonathan_ramirez0@ucol.mx</th>
+            </tr>
+            <tr>
+                    <th>1K</th>
+                    <th>juan perez</th>
+                    <th>jperez@gmail.com</th>
+            </tr>
+        </table>
+        
+        <h2>Formularios</h2>
+        <form>
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre"/>
+            </div>
+            
+            <div>
+                <label>Email:</label>
+                <input type="email" id="email"/>
+            </div>
+            
+            <div>
+                <label for="comentarios">comentarios:</label>
+                <textarea id="comentarios"></textarea>
+            </div>
+
+            <div>
+                <label for="clave">comentarios:</label>
+                <input type="password" id="clave"/>
+            </div>
+            <div>
+                <label for="color">Elige un color:</label>
+                <input type="color" id="color"/>
+            </div>
+            <div>
+                <button id="enviar">enviar</button>
+            </div>
+        </form>
+</body>
+</html>
